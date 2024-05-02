@@ -1,4 +1,4 @@
- import requests
+import requests
 
 api_key = '30d4741c779ba94c470ca1f63045390a'
 
