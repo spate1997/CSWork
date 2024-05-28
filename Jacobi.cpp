@@ -4,7 +4,7 @@
 #include <cmath>
 #include <algorithm>
 using namespace std;
-
+ 
 // Jacobi method to solve a linear system Ax = b
 pair<vector<double>, int> jacobi(vector<vector<double>> A, vector<double> b, vector<double> x0, double tol=1e-5, int max_iter=1000) {
     int n = b.size();
